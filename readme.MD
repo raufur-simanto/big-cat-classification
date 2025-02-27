@@ -16,7 +16,7 @@ A service that classifies images of big cats using Deep Learning.
 - Keras
 - OpenCV
 - Numpy
-- Pretrained models for big cats
+- Trained models for big cats
    -  [VGG16](https://s3.brilliant.com.bd/my_storage/classifier_models/big_cat_classifier.h5
    models)
    -  [MobileNetV2](https://s3.brilliant.com.bd/my_storage/classifier_models/mobilenet_model.h5
@@ -46,6 +46,15 @@ A service that classifies images of big cats using Deep Learning.
     ```
     python app.py
     ```
+
+The application will be running on http://localhost:5000
+## Apis
+- /classify: POST request to classify an image
+    Parameters:
+    - url: url of the image to classify
+    Response:
+    - class: class of the image
+    - confidence: confidence of the prediction
 
 
 ## Supported Cat Species
