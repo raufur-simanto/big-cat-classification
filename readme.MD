@@ -50,11 +50,11 @@ A service that classifies images of big cats using Deep Learning.
 The application will be running on http://localhost:5000
 ## Apis
 - /classify: POST request to classify an image
-    Parameters:
-    - url: url of the image to classify
-    Response:
-    - class: class of the image
-    - confidence: confidence of the prediction
+    - Payload:
+        - url: url of the image to classify
+    - Response:
+        - class: class of the image
+        - confidence: confidence of the prediction
 
 
 ## Supported Cat Species
