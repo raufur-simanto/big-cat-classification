@@ -25,7 +25,8 @@ A service that classifies images of big cats using Deep Learning.
 ### Installation
 1. Clone the repository
     ```
-    git clone https://github.com/your-username/big-cat-classifier.git
+    git clone https://github.com/raufur-simanto/big-cat-classification.git
+   
     ```
     ```
     cd big-cat-classifier
@@ -48,6 +49,16 @@ A service that classifies images of big cats using Deep Learning.
 
 
 ## Supported Cat Species
-[List of supported big cat species]
+- AFRICAN LEOPARD
+- CARACAL
+- CHEETAH
+- CLOUDED LEOPARD
+- JAGUAR
+- LIONS
+- OCELOT
+- PUMA
+- SNOW 
+- LEOPARD
+- TIGER
 
 
